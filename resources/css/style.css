@@ -4,8 +4,53 @@
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
   }
 
-header h1 {
+h1 {
     font-size: 5rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+    font-weight: 300;
+}
+
+a {
+    color: aquamarine;
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 2.1rem;
+    color: gray;
+}
+
+section {
+    margin: 5rem 0;
+}
+
+.hero video {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.feature p {
+    color: gray;
+}
+
+.feature img {
+    width: 70%;
+    height: auto;
+}
+
+.coming-soon img {
+}
+
+footer p {
+    text-align: right;
 }
